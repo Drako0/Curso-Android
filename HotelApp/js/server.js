@@ -2,6 +2,7 @@
 var server = {
     url: 'http://carlos.igitsoft.com/apps/test.php',
     sendData: function(nom, mail, tel, img){
+        $.mobile.loading( 'show' );
         $.ajax({
             method: "POST",
             url: server.url,

@@ -2,6 +2,7 @@
 var transfer = {
     imgSuccess:  function (r) {
         if(r.response == 1){
+            $.mobile.loading( 'hide' );
             navigator.notification.alert('El registro de sus datos ha sido un exito.', 
 function(){
                 window.location.href = '#home';
