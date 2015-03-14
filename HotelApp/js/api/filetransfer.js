@@ -14,7 +14,7 @@ var transfer = {
     imgUpload: function(img){
         var options = new FileUploadOptions();
         options.fileKey = "foto";
-        options.fileName = "carlos";
+        options.fileName = "Arturo";
         options.mimeType = "image/jpeg";
         
         var ft = new FileTransfer();
