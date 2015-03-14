@@ -24,4 +24,4 @@
         <gap:plugin name="org.apache.cordova.media-capture" />
         <gap:plugin name="org.apache.cordova.file-transfer" />
 
-    </widget>
+    </widget> 
