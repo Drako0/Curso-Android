@@ -39,7 +39,7 @@ var fn = {
                 var ha = $('#nr2 select:eq(0)').val();
                 var pr = $('#nr2 select:eq(1)').val();
                 var di = $('#nr2 select:eq(2)').val();
-                alert(connection.isConnected());
+                //alert(connection.isConnected());
                 if(connection.isConnected())
                     alert(th + ' - ' + ha + ' - ' + pr + ' - ' + di);
                 else
